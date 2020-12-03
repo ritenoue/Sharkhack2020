@@ -1,0 +1,550 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik+One);
+
+
+
+body {
+    padding-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+h2 {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.starter-template {
+padding: 3rem 1.5rem;
+text-align: center;
+}
+
+/* Navigation - Style */
+
+.navbar {
+    background-color: #00115A;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px .5px 5px .1px rgba(1, 7, 48, 0.922);
+}
+
+.navbar-brand {
+    font-family: 'Rubik One', sans-serif;
+}
+
+.navbar-nav a {
+    padding-bottom: -5px;
+}
+
+.navbar-nav .nav-link {
+    border-bottom: 1px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+/* responsive nav bar color */
+
+nav.scroll {
+    background-color: white;
+    color: black;
+  }
+
+
+/* HomePage - Style */
+
+.homepage {
+    background-color: #00115A;
+    margin-top: -3%;
+}
+
+.headline {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    color: white;
+}
+
+.headline-title {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 55px;
+}
+
+.headline-subtitle {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-top: 3%;
+}
+
+
+.headline-text {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-top: 3%;
+    padding-bottom: 15%;
+} 
+
+.register-btn {
+    background-color: #e4938f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.register-btn:hover {
+    background-color: rgb(90, 120, 255);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;    
+}
+
+/*
+Uncomment when website is done 
+(maybe? is it ugly?)
+
+.register-btn:visited {
+    background-color: #724947;
+    color: grey;
+}
+*/
+
+.headline-foot{
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 3%;
+    font-weight: 300;
+}
+
+
+/* About - Style */
+
+.about {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+ 
+.about h2 {
+    padding-top: 2%;
+    padding-bottom: 8%;
+    font-size: 3em;
+}
+
+.about img {
+    margin-bottom: 3%;
+    border: 5px solid #e4938f;
+}
+
+
+
+
+/*Categories - Stlye*/
+
+.categories {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #FEA49F;
+}
+
+.categories-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: black;
+}
+
+.categories-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.categories-spon {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5em;
+}
+
+.categories-sub {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10%;
+}
+
+/* Schedule - Style */
+
+.schedulef {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: #00115A;
+}
+
+.schedulef-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: white;
+}
+
+.schedulef .heading-body{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5%;
+    font-size: 2em;
+    color: black;
+}
+
+.schedulef .time {
+    color: #00115A;    
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
+}
+
+.schedulef .eventname {
+    color: black;
+    font-weight: 400;
+    padding-left: 2em;
+}
+
+.full-schedulef-btn {
+    background-color: #FEA49F;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 3%;
+}
+
+
+.full-schedulef-btn:hover {
+    background-color: rgb(90, 120, 255);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 3%;
+}
+
+
+.schedulef .nav-item {
+    width: 100%;
+    color: white;
+    padding-top: 1em;
+}
+
+.schedulef .nav-item h1, h2{
+    font-size: 1.5em;
+}
+
+.schedulef .nav-item.active {
+    background-color: White;
+    border: white;
+    color: black;
+}
+
+.schedulef .nav-item.nav-link:hover {
+    background-color: white;
+    border: white;
+    color: black;
+}
+
+.schedulef .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.schedulef .btn:hover {
+    text-decoration: none;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+
+/* Schedule - Style */
+
+.schedule {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: #FEA49F;
+}
+
+.schedule-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: black;
+}
+
+.schedule .heading-body{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5%;
+    font-size: 2em;
+    color: black;
+}
+
+.schedule .time {
+    color: #00115A;    
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
+}
+
+.schedule .eventname {
+    color: black;
+    font-weight: 400;
+    padding-left: 2em;
+}
+
+.full-schedule-btn {
+    background-color: #00115A;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 3%;
+}
+
+
+.full-schedule-btn:hover {
+    background-color: rgb(90, 120, 255);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 3%;
+}
+
+
+.schedule .nav-item {
+    width: 50%;
+    color: #00115A;
+    padding-top: 1em;
+}
+
+.schedule .nav-item h1, h2{
+    font-size: 1.5em;
+}
+
+.schedule .nav-item.active {
+    background-color: #00115A;
+    border: #00115A;
+    color: white;
+}
+
+.schedule .nav-item.nav-link:hover {
+    background-color: #00115A;
+    border: #00115A;
+    color: white;
+}
+
+.schedule .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.schedule .btn:hover {
+    text-decoration: none;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+
+/* Team - Style */
+
+.team {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: #00115A;
+}
+
+.team-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: white;
+}
+
+.team .card-body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team .card-text {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.team .card {
+    height: 60%;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/* Sponsors - Style */
+
+.sponsors {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: white;
+}
+
+.sponsors-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: black;
+}
+
+.sponsor-type {
+    padding-bottom: 2%;
+    color: #00115A;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+/* Directions - Style */
+
+
+.directions {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: #FEA49F;
+}
+
+.directions-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: black;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/* Contact - Style */
+
+
+.contact {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: #00115A;
+    color: white;
+}
+
+.contact h2 {
+    padding-bottom: 3%;
+}
+
+.contact-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: white;
+}
+
+.contact a {
+    color: rgb(90, 120, 255);
+}
+
+.contact a:hover {
+    color: rgb(90, 120, 255);
+    text-decoration: underline;
+}
+
+/* FAQ - Style */
+
+
+.faq {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    background-color: white;
+}
+
+.faq-heading {
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: black;
+}
+
+.faq .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* Footer - Style */
+
+
+footer {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: slategray;
+}
+
+.social .row img {
+    width: 2em;
+    margin-bottom: 3%;
+}
+
+.made-by {
+    padding-top: 3%;
+    color: white;
+}
+
+.made-by img {
+    width: 1em;
+}
+
+.zoom {
+    transition: transform .5s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+
+
+
+  .white-text {
+    color: white !important;
+    opacity: 100% !important;
+}
+
+
+.text-left {
+    text-align: left;
+}
+
+/* animated typewriter text */
+
+
+
+#typewriter{
+		margin: 0;
+		&:after{
+			content: "|";
+			animation: blink 500ms linear infinite alternate;
+		}
+}
+
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
